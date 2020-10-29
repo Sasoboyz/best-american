@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    min-width: 960px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #f2f2f2;
+    background-color: white;
+    background-image: url("img/amerikanskiy.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+   
+  }
+main {
+  width: auto;
+}
+.heading {
+  margin: 20% 0 24px;
+  font-size: 80px;
+  text-align: center;
+  color: rgba(32, 35, 78, 0.9);
+  font-family: "Roboto";
+
+}
+.headp{
+  min-height: 400px;
+	line-height: 200px;
+  margin: 0 auto;
+  font-size: 150%;
+  text-align: center;
+  color: rgba(32, 35, 78, 0.9);
+  font-family: "Roboto";
+}
+
+p {
+  color: black;
+}
+.container {
+  margin-top: 100px;
+  margin-left: 100px;
+  border: solid;
+  margin-bottom: 50px;
+  max-width: 400px;
+  max-height: 400px;
+}
+.rightpic {
+  float: right; /* Выравнивание по правому краю */
+  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+ }
+footer p{
+  background-color: black;
+   min-height: 30px;
+   max-height: 100px;
+   color: white;
+   margin: 0px;
+   
+ }
+ #pic {
+   margin-right: 200px;
+  float: right; /* Обтекание картинки текстом */
+  /* max-height: 400px; */
+ }
+ #text {
+  max-width: 400px;
+  max-height: 400px;
+  color: black;
+  margin-left: 200px;
+  margin-bottom: 200px;
+ font-family: 'Helvetica';
+ }
+ #textx{
+  max-width: 400px;
+  max-height: 400px;
+  color: black;
+  margin-left: 760px;
+  margin-bottom: 200px;
+  font-family: 'Helvetica';
+ }
+ #picc {
+  margin-left: 200px;
+ float: left; /* Обтекание картинки текстом */
+ /* max-height: 400px; */
+}
